@@ -1,6 +1,7 @@
 import './App.css'
 import AddTodo from './components/AddTodo'
 import TodoList from './components/TodoList'
+import MovieList from './components/movies/MovieList'
 
 function App() {
 
@@ -12,6 +13,9 @@ function App() {
 
       {/* todo list component */}
       <TodoList />
+
+      {/*  movies list component */}
+      <MovieList />
     </>
   )
 }
